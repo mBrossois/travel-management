@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn {
+    @apply p-2 mr-2 rounded;
+}
+
+.btn-black {
+    @apply bg-black text-white;
+}
+
+.btn-home {
+    @apply flex items-center justify-center w-80 h-32 p-0; 
+}
+
+.transform-img-middle {
+    transform: translate(calc( -1 * (100% - 12rem) / 2), calc( -1 * (100% - 6rem) / 2));
+}
+
+.h-full-min-pad {
+    height: calc(100svh - 2rem) ;
+}

@@ -1,0 +1,55 @@
+import type { Travels } from  "~/types/travels"
+
+export const travelsDB: Travels = {
+    future: [
+      {id: 44, name: 'A Peru party first', departureDate: '2024-03-01', returnDate: '2024-03-21', description: 'Amazing trip through Peru', imgSrc: 'Peru.jpg', imgAlt: 'Peru', pricePerTicket: 450.00, rating: 4},
+      {id: 43, name: 'Peru party', departureDate: '2025-01-01', returnDate: '2025-01-21', description: 'Amazing trip through Peru', imgSrc: 'Peru.jpg', imgAlt: 'Peru', pricePerTicket: 450.00},
+      {id: 42, name: 'Spanish sleepy times', departureDate: '2025-01-01', returnDate: '2025-01-21', description: 'Amazing trip through Madrid', imgSrc: 'Spain.jpg', imgAlt: 'Madrid', pricePerTicket: 389.95},
+      {id: 41, name: 'Fashionable Milan', departureDate: '2025-01-01', returnDate: '2025-01-21', description: 'Amazing trip through Milan', imgSrc: 'Milan.jpg', imgAlt: 'Milan', pricePerTicket: 450.00},
+      {id: 40, name: 'Fashionable Milan 2', departureDate: '2025-03-01', returnDate: '2025-03-21', description: 'Amazing trip through Milan', imgSrc: 'Milan.jpg', imgAlt: 'Milan', pricePerTicket: 450.00},
+      {id: 39, name: 'Peru party', departureDate: '2024-05-01', returnDate: '2024-06-21', description: 'Amazing trip through Peru', imgSrc: 'Peru.jpg', imgAlt: 'Peru', pricePerTicket: 450.00, rating: 4},
+      {id: 38, name: 'Peru party Z', departureDate: '2025-02-01', returnDate: '2025-03-21', description: 'Party in Peru', imgSrc: 'Peru.jpg', imgAlt: 'Peru', pricePerTicket: 420.00},
+      {id: 37, name: 'Spanish sleepy times', departureDate: '2025-01-01', returnDate: '2025-01-21', description: 'Amazing trip through Madrid', imgSrc: 'Spain.jpg', imgAlt: 'Madrid', pricePerTicket: 389.95},
+      {id: 36, name: 'Fashionable Milan', departureDate: '2025-01-01', returnDate: '2025-01-21', description: 'Amazing trip through Milan', imgSrc: 'Milan.jpg', imgAlt: 'Milan', pricePerTicket: 450.00},
+      {id: 35, name: 'Fashionable Milan 2', departureDate: '2025-03-01', returnDate: '2025-03-21', description: 'Amazing trip through Milan', imgSrc: 'Milan.jpg', imgAlt: 'Milan', pricePerTicket: 450.00},
+      {id: 34, name: 'Peru party', departureDate: '2024-03-01', returnDate: '2024-03-21', description: 'Amazing trip through Peru', imgSrc: 'Peru.jpg', imgAlt: 'Peru', pricePerTicket: 450.00, rating: 4},
+      {id: 33, name: 'Peru party', departureDate: '2025-01-01', returnDate: '2025-01-21', description: 'Amazing trip through Peru', imgSrc: 'Peru.jpg', imgAlt: 'Peru', pricePerTicket: 450.00},
+      {id: 32, name: 'Spanish sleepy times', departureDate: '2025-01-01', returnDate: '2025-01-21', description: 'Amazing trip through Madrid', imgSrc: 'Spain.jpg', imgAlt: 'Madrid', pricePerTicket: 389.95},
+      {id: 31, name: 'Fashionable Milan', departureDate: '2025-01-01', returnDate: '2025-01-21', description: 'Amazing trip through Milan', imgSrc: 'Milan.jpg', imgAlt: 'Milan', pricePerTicket: 450.00},
+      {id: 30, name: 'Fashionable Milan 2', departureDate: '2025-03-01', returnDate: '2025-03-21', description: 'Amazing trip through Milan', imgSrc: 'Milan.jpg', imgAlt: 'Milan', pricePerTicket: 450.00},
+      {id: 29, name: 'Peru party 2', departureDate: '2024-05-01', returnDate: '2024-06-21', description: 'Amazing trip through Peru', imgSrc: 'Peru.jpg', imgAlt: 'Peru', pricePerTicket: 450.00, rating: 4},
+      {id: 28, name: 'Peru party', departureDate: '2025-01-01', returnDate: '2025-01-21', description: 'Amazing trip through Peru', imgSrc: 'Peru.jpg', imgAlt: 'Peru', pricePerTicket: 450.00},
+      {id: 27, name: 'Spanish sleepy times', departureDate: '2025-01-01', returnDate: '2025-01-21', description: 'Amazing trip through Madrid', imgSrc: 'Spain.jpg', imgAlt: 'Madrid', pricePerTicket: 389.95},
+      {id: 26, name: 'Fashionable Milan', departureDate: '2025-01-01', returnDate: '2025-01-21', description: 'Amazing trip through Milan', imgSrc: 'Milan.jpg', imgAlt: 'Milan', pricePerTicket: 450.00},
+      {id: 25, name: 'Fashionable Milan 2', departureDate: '2025-03-01', returnDate: '2025-03-21', description: 'Amazing trip through Milan', imgSrc: 'Milan.jpg', imgAlt: 'Milan', pricePerTicket: 450.00},
+      {id: 24, name: 'Peru highlights', departureDate: '2024-03-01', returnDate: '2024-03-21', description: 'Amazing trip through Peru', imgSrc: 'Peru.jpg', imgAlt: 'Peru', pricePerTicket: 450.00, rating: 4},
+      {id: 23, name: 'Peru wildlands', departureDate: '2025-01-01', returnDate: '2025-01-21', description: 'Amazing trip through Peru', imgSrc: 'Peru.jpg', imgAlt: 'Peru', pricePerTicket: 450.00},
+      {id: 22, name: 'Spanish sleepy times', departureDate: '2025-01-01', returnDate: '2025-01-21', description: 'Amazing trip through Madrid', imgSrc: 'Spain.jpg', imgAlt: 'Madrid', pricePerTicket: 389.95},
+      {id: 21, name: 'Fashionable Milan', departureDate: '2025-01-01', returnDate: '2025-01-21', description: 'Amazing trip through Milan', imgSrc: 'Milan.jpg', imgAlt: 'Milan', pricePerTicket: 450.00},
+      {id: 20, name: 'Fashionable Milan 2', departureDate: '2025-03-01', returnDate: '2025-03-21', description: 'Amazing trip through Milan', imgSrc: 'Milan.jpg', imgAlt: 'Milan', pricePerTicket: 450.00},
+      {id: 19, name: 'Peru party', departureDate: '2024-05-01', returnDate: '2024-06-21', description: 'Amazing trip through Peru', imgSrc: 'Peru.jpg', imgAlt: 'Peru', pricePerTicket: 450.00, rating: 4},
+      {id: 18, name: 'Peru party', departureDate: '2025-01-01', returnDate: '2025-01-21', description: 'Amazing trip through Peru', imgSrc: 'Peru.jpg', imgAlt: 'Peru', pricePerTicket: 450.00},
+      {id: 17, name: 'Spanish sleepy times', departureDate: '2025-01-01', returnDate: '2025-01-21', description: 'Amazing trip through Madrid', imgSrc: 'Spain.jpg', imgAlt: 'Madrid', pricePerTicket: 389.95},
+      {id: 16, name: 'Fashionable Milan', departureDate: '2025-01-01', returnDate: '2025-01-21', description: 'Amazing trip through Milan', imgSrc: 'Milan.jpg', imgAlt: 'Milan', pricePerTicket: 450.00},
+      {id: 15, name: 'Z Fashionable Milan last', departureDate: '2025-03-01', returnDate: '2025-03-21', description: 'Amazing trip through Milan', imgSrc: 'Milan.jpg', imgAlt: 'Milan', pricePerTicket: 450.00}
+    ],
+    current: [
+      {id: 14, name: 'Peru party', departureDate: '2024-01-01', returnDate: '2024-02-21', description: 'Amazing trip through Peru', imgSrc: 'Peru.jpg', imgAlt: 'Peru', pricePerTicket: 450.00, rating: 4},
+      {id: 13, name: 'Peru party', departureDate: '2024-01-01', returnDate: '2025-02-21', description: 'Amazing trip through Peru', imgSrc: 'Peru.jpg', imgAlt: 'Peru', pricePerTicket: 450.00, rating: 3},
+      {id: 12, name: 'Spanish sleepy times', departureDate: '2024-01-01', returnDate: '2025-02-21', description: 'Amazing trip through Madrid', imgSrc: 'Spain.jpg', imgAlt: 'Madrid', pricePerTicket: 389.95, rating: 3},
+      {id: 11, name: 'Fashionable Milan', departureDate: '2024-01-01', returnDate: '2025-02-21', description: 'Amazing trip through Milan', imgSrc: 'Milan.jpg', imgAlt: 'Milan', pricePerTicket: 450.00, rating: 5},
+      {id: 10, name: 'Fashionable Milan 2', departureDate: '2024-01-01', returnDate: '2025-03-21', description: 'Amazing trip through Milan', imgSrc: 'Milan.jpg', imgAlt: 'Milan', pricePerTicket: 450.00, rating: 3},
+      {id: 9, name: 'Peru party', departureDate: '2024-01-01', returnDate: '2024-02-21', description: 'Amazing trip through Peru', imgSrc: 'Peru.jpg', imgAlt: 'Peru', pricePerTicket: 450.00, rating: 4},
+      {id: 8, name: 'Peru party', departureDate: '2024-01-01', returnDate: '2025-02-21', description: 'Amazing trip through Peru', imgSrc: 'Peru.jpg', imgAlt: 'Peru', pricePerTicket: 450.00, rating: 3},
+      {id: 7, name: 'Spanish sleepy times', departureDate: '2024-01', returnDate: '2025-02-21', description: 'Amazing trip through Madrid', imgSrc: 'Spain.jpg', imgAlt: 'Madrid', pricePerTicket: 389.95, rating: 2},
+      {id: 6, name: 'Fashionable Milan', departureDate: '2024-01-01', returnDate: '2025-21-21', description: 'Amazing trip through Milan', imgSrc: 'Milan.jpg', imgAlt: 'Milan', pricePerTicket: 450.00, rating: 3},
+      {id: 5, name: 'Fashionable Milan 2', departureDate: '2024-01-01', returnDate: '2025-03-21', description: 'Amazing trip through Milan', imgSrc: 'Milan.jpg', imgAlt: 'Milan', pricePerTicket: 450.00, rating: 5}
+    ],
+    past: [
+      {id: 4, name: 'Peru party', departureDate: '2023-01-01', returnDate: '2023-01-21', description: 'Amazing trip through Peru', imgSrc: 'Peru.jpg', imgAlt: 'Peru', pricePerTicket: 450.00, rating: 3},
+      {id: 3, name: 'Peru party', departureDate: '2023-01-01', returnDate: '2023-01-21', description: 'Amazing trip through Peru', imgSrc: 'Peru.jpg', imgAlt: 'Peru', pricePerTicket: 450.00, rating: 4},
+      {id: 2, name: 'Spanish sleepy times', departureDate: '2023-01-01', returnDate: '2023-01-21', description: 'Amazing trip through Madrid', imgSrc: 'Spain.jpg', imgAlt: 'Madrid', pricePerTicket: 389.95, rating: 5},
+      {id: 1, name: 'Fashionable Milan', departureDate: '2023-01-01', returnDate: '2023-01-21', description: 'Amazing trip through Milan', imgSrc: 'Milan.jpg', imgAlt: 'Milan', pricePerTicket: 450.00, rating: 1},
+      {id: 0, name: 'Fashionable Milan 2', departureDate: '2023-03-01', returnDate: '2023-03-21', description: 'Amazing trip through Milan', imgSrc: 'Milan.jpg', imgAlt: 'Milan', pricePerTicket: 450.00, rating: 5}
+    ],
+  }
